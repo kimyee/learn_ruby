@@ -21,8 +21,6 @@ def factorial(x)
 	if x == 1
 		return 1
 	end
-	factorial(x-1)*x
-		
-		
+	factorial(x-1)*x	
 end
 
