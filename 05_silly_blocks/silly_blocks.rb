@@ -7,6 +7,6 @@ def adder(num=1)
 	yield+num
 end
 
-def repeater
-	
+def repeater(i=1)
+	i.times {yield}
 end
